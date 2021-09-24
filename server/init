@@ -2,4 +2,5 @@
 if [ ! -e ./server/secrets.json ]; then
   echo "{\"SECRET_KEY\": \"00000000000000000000000000000000000000000000000000\"}" >> ./server/secrets.json
   ./manage.py makesecrets -D
+  ./manage.py collectstatic
 fi
