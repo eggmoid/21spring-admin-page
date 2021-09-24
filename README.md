@@ -9,7 +9,24 @@
 - Oracle RDBMS 사용
 - ORM이나 쿼리 빌더 등 사용 금지 (raw SQL query 직접 작성)
 
+## 기술 스택
+
 ## 프로젝트 구성
+```
+.
+├── autopull
+├── docs
+├── frontend
+│   ├── nginx
+│   └── src
+└── server
+    ├── api
+    │   └── model
+    ├── core
+    └── server
+        └── management
+            └── commands
+```
 
 ## 역할 분담
 
